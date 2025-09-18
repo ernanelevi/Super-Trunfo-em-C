@@ -21,7 +21,7 @@ int main()
     printf("Digite o ESTADO da primeira cata (A - H): ");
     scanf("%c", &estado1);
 
-    printf("Digite o CÓDIGO da primeira carta (A01 - H02): ");
+    printf("Digite o CÓDIGO da primeira carta (01 - 02): ");
     scanf("%s", &codigo1);
     getchar();
 
@@ -43,6 +43,21 @@ int main()
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    printf("========== CARTA 1 ==========\n");
+
+    printf("Estado: %c\n", estado1);
+
+    printf("Código: %c%s\n", estado1, codigo1);
+
+    printf("Nome da Cidade: %s", n_cidade1);
+
+    printf("População: %d\n", populacao1);
+
+    printf("Área: %.2f Km²\n", area1);
+
+    printf("PIB: %.2f Bilhões de reais\n", pib1);
+
+    printf("Pontos Turísticos: %d\n", p_turisticos1);
 
     return 0;
 }
